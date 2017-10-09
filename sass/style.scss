@@ -23,7 +23,7 @@ header{
 
     .jumbotron{
         background: rgba(255, 255, 255, 0.3);
-        margin-top: 10%;
+        margin-top: 100px;
         border-radius: 5px;
         h1{
             text-align: center;
@@ -46,6 +46,10 @@ header{
         margin-bottom: 10px;
     }
 
+    a:hover{
+        text-decoration: none;
+    }
+
     .redes{
         li{
         display: inline-block;
@@ -57,7 +61,7 @@ header{
         box-sizing: border-box;
         transition: 0.5s;
         border-radius: 250%;
-        margin: 10% 10px 0 0;
+        margin: 30% 10px 0 0;
         background: rgba(255, 255, 255, 0.3);
             span {              
                 color: white;
