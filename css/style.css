@@ -61,7 +61,7 @@ header {
   background-size: cover; }
   header .jumbotron {
     background: rgba(255, 255, 255, 0.3);
-    margin-top: 10%;
+    margin-top: 100px;
     border-radius: 5px; }
     header .jumbotron h1 {
       text-align: center;
@@ -76,6 +76,8 @@ header {
     background: rgba(255, 255, 255, 0.3);
     color: #fff;
     margin-bottom: 10px; }
+  header a:hover {
+    text-decoration: none; }
   header .redes li {
     display: inline-block;
     padding-top: 20px;
@@ -86,7 +88,7 @@ header {
     box-sizing: border-box;
     transition: 0.5s;
     border-radius: 250%;
-    margin: 10% 10px 0 0;
+    margin: 30% 10px 0 0;
     background: rgba(255, 255, 255, 0.3); }
     header .redes li span {
       color: white; }
