@@ -91,19 +91,15 @@ header {
     header .redes li span {
       color: white; }
   @media (max-width: 1400px) {
-    header header {
-      background-image: url("../img/manos1400.jpg"); }
-      header header .jumbotron {
-        background: rgba(255, 255, 255, 0.3); } }
+    header header .jumbotron {
+      background: rgba(255, 255, 255, 0.3); } }
   @media (max-width: 620px) {
-    header header {
-      background-image: url("../img/manos300.jpg"); }
-      header header .jumbotron {
-        background: rgba(255, 255, 255, 0.3);
-        margin-top: 20%; }
-        header header .jumbotron h1 {
-          font-size: 40px; }
-        header header .jumbotron p {
-          font-size: 12px; } }
+    header header .jumbotron {
+      background: rgba(255, 255, 255, 0.3);
+      margin-top: 20%; }
+      header header .jumbotron h1 {
+        font-size: 40px; }
+      header header .jumbotron p {
+        font-size: 12px; } }
 
 /*# sourceMappingURL=style.css.map */
