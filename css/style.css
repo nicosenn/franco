@@ -45,10 +45,14 @@ html, body {
   height: 100%; }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #ffffff; }
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px; }
 
 .navbar-light .navbar-brand {
-  color: #ffffff; }
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px; }
 
 header {
   display: table;
@@ -65,11 +69,15 @@ header {
     border-radius: 5px; }
     header .jumbotron h1 {
       text-align: center;
-      color: #fff; }
+      color: #fff;
+      font-family: 'Montserrat', sans-serif; }
     header .jumbotron .btn {
       background: rgba(255, 255, 255, 0.5);
       border: none;
       border-color: none; }
+    header .jumbotron p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px; }
   header .sara {
     margin-top: 20px; }
   header .card {
@@ -103,5 +111,41 @@ header {
         font-size: 40px; }
       header header .jumbotron p {
         font-size: 12px; } }
+
+.categ {
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
+  .categ .carousel {
+    margin-top: 20px; }
+    .categ .carousel h3 {
+      font-size: 30px;
+      margin-bottom: 5px; }
+    .categ .carousel p {
+      font-size: 12px; }
+  .categ .card {
+    font-size: 20px;
+    margin: 20px 0; }
+    .categ .card p {
+      font-size: 12px; }
+
+footer {
+  margin-bottom: 30px; }
+  footer .redes li {
+    display: inline-block;
+    padding-top: 20px;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border-radius: 250%;
+    margin: 30% 10px 0 0;
+    background-color: #333; }
+    footer .redes li span {
+      color: white; }
+  footer a:hover {
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
