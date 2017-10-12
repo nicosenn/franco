@@ -48,6 +48,7 @@ header{
         }
 
         .btn{
+            color: #fff;
             background: rgba(255, 255, 255, 0.5);
             border: none;
             border-color:none
@@ -130,6 +131,10 @@ header{
             font-size: 12px;
         }
     }
+
+    h1{
+        font-size: 40px;
+    }
     
     h4{
         margin-top: 30px;
@@ -152,17 +157,18 @@ header{
 }
 
 .contacto{
-    //margin-top: 80px;
+    margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 30px;
     h4{
-        font-size: 30px;
+        font-size: 40px;
         margin-bottom: 30px;
     }
 
     .btn{
         background-color: #333;
+        color: #fff;
     }
 
     .btn:hover{

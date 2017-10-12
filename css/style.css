@@ -81,6 +81,7 @@ header {
       font-size: 40px;
       margin-bottom: 10px; }
     header .jumbotron .btn {
+      color: #fff;
       background: rgba(255, 255, 255, 0.5);
       border: none;
       border-color: none; }
@@ -132,6 +133,8 @@ header {
       margin-bottom: 5px; }
     .categ .carousel p {
       font-size: 12px; }
+  .categ h1 {
+    font-size: 40px; }
   .categ h4 {
     margin-top: 30px;
     font-size: 30px;
@@ -146,14 +149,16 @@ header {
     height: 500px; }
 
 .contacto {
+  margin-top: 10px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 30px; }
   .contacto h4 {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 30px; }
   .contacto .btn {
-    background-color: #333; }
+    background-color: #333;
+    color: #fff; }
   .contacto .btn:hover {
     background: white;
     color: #333; }
