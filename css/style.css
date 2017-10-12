@@ -54,6 +54,9 @@ html, body {
   font-family: 'Roboto', sans-serif;
   font-size: 15px; }
 
+hr {
+  margin: 30px 0; }
+
 header {
   display: table;
   width: 100%;
@@ -71,6 +74,12 @@ header {
       text-align: center;
       color: #fff;
       font-family: 'Montserrat', sans-serif; }
+    header .jumbotron .about {
+      text-align: center;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 40px;
+      margin-bottom: 10px; }
     header .jumbotron .btn {
       background: rgba(255, 255, 255, 0.5);
       border: none;
@@ -96,7 +105,7 @@ header {
     box-sizing: border-box;
     transition: 0.5s;
     border-radius: 250%;
-    margin: 30% 10px 0 0;
+    margin: 30% 10px 10px 0;
     background: rgba(255, 255, 255, 0.3); }
     header .redes li span {
       color: white; }
@@ -123,11 +132,45 @@ header {
       margin-bottom: 5px; }
     .categ .carousel p {
       font-size: 12px; }
+  .categ h4 {
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 30px; }
   .categ .card {
     font-size: 20px;
     margin: 20px 0; }
     .categ .card p {
-      font-size: 12px; }
+      font-size: 10px; }
+  .categ .pincel {
+    width: 80%;
+    height: 500px; }
+
+.contacto {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 30px; }
+  .contacto h4 {
+    font-size: 30px;
+    margin-bottom: 30px; }
+  .contacto .btn {
+    background-color: #333; }
+  .contacto .btn:hover {
+    background: white;
+    color: #333; }
+  .contacto .form-control {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: none;
+    border-bottom: 1px solid #050505;
+    border-radius: 0;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; }
 
 footer {
   margin-bottom: 30px; }
