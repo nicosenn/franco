@@ -6,9 +6,13 @@ html, body{
 
 .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 .navbar-light .navbar-brand {
     color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
 header{
@@ -28,13 +32,18 @@ header{
         h1{
             text-align: center;
             color: #fff;
+            font-family: 'Montserrat', sans-serif;
         }
         .btn{
             background: rgba(255, 255, 255, 0.5);
             border: none;
             border-color:none
         }
-    }
+        p{
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+        }
+    }    
 
     .sara{
         margin-top: 20px;
@@ -90,5 +99,56 @@ header{
                 }
             }
         }
+    }
+}
+
+.categ{
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+    .carousel{
+        margin-top: 20px;
+        h3{
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+
+    .card{
+        font-size: 20px;
+        margin: 20px 0;
+        p{
+            font-size: 12px;
+        }
+    }
+}
+
+footer{
+    margin-bottom: 30px;
+   .redes{
+        li{
+        display: inline-block;
+        padding-top: 20px;
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+        text-align: center;
+        box-sizing: border-box;
+        transition: 0.5s;
+        border-radius: 250%;
+        margin: 30% 10px 0 0;
+        background-color: #333;
+            span {              
+                color: white;
+            }
+        }
+    }
+
+    a:hover{
+        text-decoration: none;
     }
 }
