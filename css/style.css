@@ -66,6 +66,10 @@ header {
   background-image: url("../img/manos.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
+  header p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px; }
   header .jumbotron {
     background: rgba(255, 255, 255, 0.3);
     margin-top: 100px;
@@ -85,9 +89,6 @@ header {
       background: rgba(255, 255, 255, 0.5);
       border: none;
       border-color: none; }
-    header .jumbotron p {
-      font-family: 'Roboto', sans-serif;
-      font-size: 15px; }
   header .sara {
     margin-top: 20px; }
   header .card {
@@ -106,10 +107,13 @@ header {
     box-sizing: border-box;
     transition: 0.5s;
     border-radius: 250%;
-    margin: 30% 10px 10px 0;
+    margin: 30% 10px 20px 0;
     background: rgba(255, 255, 255, 0.3); }
     header .redes li span {
       color: white; }
+  header strong {
+    color: #fff;
+    margin-bottom: 10px; }
   @media (max-width: 1400px) {
     header header .jumbotron {
       background: rgba(255, 255, 255, 0.3); } }
@@ -123,7 +127,7 @@ header {
         font-size: 12px; } }
 
 .categ {
-  margin-top: 100px;
+  margin-top: 90px;
   font-family: 'Montserrat', sans-serif;
   text-align: center; }
   .categ .carousel {
@@ -149,7 +153,6 @@ header {
     height: 500px; }
 
 .contacto {
-  margin-top: 10px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 30px; }
@@ -179,6 +182,11 @@ header {
 
 footer {
   margin-bottom: 30px; }
+  footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; }
+  footer strong {
+    color: #333; }
   footer .redes li {
     display: inline-block;
     padding-top: 20px;
@@ -189,7 +197,7 @@ footer {
     box-sizing: border-box;
     transition: 0.5s;
     border-radius: 250%;
-    margin: 30% 10px 0 0;
+    margin: 15% 10px 20px 0;
     background-color: #333; }
     footer .redes li span {
       color: white; }
